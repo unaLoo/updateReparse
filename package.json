@@ -1,0 +1,29 @@
+{
+  "name": "underwater",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "@webgpu/types": "^0.1.40",
+    "axios": "^1.6.5",
+    "dat.gui": "^0.7.9",
+    "earcut": "^2.2.4",
+    "gl-matrix": "^3.4.3",
+    "libtess": "^1.2.2",
+    "mapbox-gl": "^3.0.1",
+    "three": "^0.160.0",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8",
+    "vite-plugin-mkcert": "^1.17.3"
+  }
+}
